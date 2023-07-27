@@ -69,7 +69,7 @@ class Markdown extends React.Component {
     return (
       <div>
         <h1 className={classes[INDEX].h1}>Markdown Previewer</h1>
-
+<section className="basa">
         <div className={classes[INDEX].editor}>
           <Toolbar
             icon={classes[INDEX].icon}
@@ -87,6 +87,7 @@ class Markdown extends React.Component {
           />
           <Preview markdown={this.state.markdown} />
         </div>
+        </section>
       </div>
     );
   }

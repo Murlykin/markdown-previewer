@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-$base-color: #023441;
-$base-bg: #61dbfb;
-$hover-color: #618efb;
-$border-color: #8161fb;
-$header-bg: #05be2c;
+$base-color: #3f4806;
+$base-bg: #078daf;
+$hover-color: #c7cede;
+$border-color: #b8a9f4;
+$header-bg: #be9305;
 $header-color: #fff;
 $shadow: 1px 1px 5px 1px darken($base-color, 20%);
 $text-shadow: 1px 1px 1px darken($base-color, 10%);
@@ -27,15 +27,18 @@ body {
 h1 {
   text-align: center;
 }
+.basa{
+  display: flex;
+gap: 15px;
 
+}
 .wrap {
   border: $border;
   box-shadow: $shadow;
   background: $header-bg;
   color: $header-color;
-  width: calc(100vw - 100px);
+  width: calc(60vw - 160px);
   margin: auto;
-  margin-bottom: 50px;
   overflow: hidden;
 }
 
@@ -82,7 +85,7 @@ h1 {
 
 #editor {
   width: calc(100% - 10px);
-  min-height: 200px;
+  min-height: 400px;
   margin-bottom: -5px;
   resize: vertical;
   outline: none;
@@ -99,7 +102,7 @@ textarea {
 
 #preview {
   @extend textarea;
-  min-height: 200px;
+  min-height: 100px;
   padding-top: 5px;
   margin-bottom: -5px;
   height: 400px;
